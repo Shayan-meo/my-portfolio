@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body{
+    background: #304352;  
+background: -webkit-linear-gradient(to right, #d7d2cc, #304352);  
+background: linear-gradient(to right, #d7d2cc, #304352); 
+color: aliceblue;
+} */
+
+/* body{
+    background: #8e9eab;  
+background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  
+background: linear-gradient(to right, #eef2f3, #8e9eab); 
+} */
+
+/* body{
+    background: #83a4d4;  
+background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);  
+background: linear-gradient(to right, #b6fbff, #83a4d4); 
+
+} */
+
+body{
+    background-image: linear-gradient( 90.1deg,  rgb(126, 235, 250) 0.2%, rgb(117, 86, 209) 99.9% );
+
+}
+
+df-messenger {
+    --df-messenger-bot-message: #d3e7f0;  
+    --df-messenger-user-message: #5bc5f7;
+    --df-messenger-font-color: #000000; 
+    --df-messenger-button-titlebar-color: #14a17254;
+  --df-messenger-chat-background-color: #ffffff; 
+  --df-messenger-input-box-color: #ebdbdb;     
+  --df-messenger-input-box-border-color: #140808;
+  --df-messenger-send-icon: #196ac2;      
+}
+  
+  
+
+
+
