@@ -18,7 +18,7 @@ export default function Skills() {
             <div className="h-full w-1 bg-gray-200 pointer-events-none" />
           </div>
           <div className="flex-shrink-0 w-10 h-10 rounded-full inline-flex items-center justify-center text-white relative z-10">
-          <img width="48" height="48" src="https://img.icons8.com/color/48/html-5--v1.png" alt="html-5--v1"/>
+          <Image width="48" height="48" src="https://img.icons8.com/color/48/html-5--v1.png" alt="html-5--v1"/>
           </div>
           <div className="flex-grow pl-4">
             <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider lg:text-2xl">
@@ -34,7 +34,7 @@ export default function Skills() {
             <div className="h-full w-1 bg-gray-200 pointer-events-none" />
           </div>
           <div className="flex-shrink-0 w-10 h-10 rounded-full inline-flex items-center justify-center text-white relative z-10">
-          <img width="48" height="48" src="https://img.icons8.com/color/48/css3.png" alt="css3"/>
+          <Image width="48" height="48" src="https://img.icons8.com/color/48/css3.png" alt="css3"/>
           </div>
           <div className="flex-grow pl-4">
             <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider lg:text-2xl">
@@ -50,7 +50,7 @@ export default function Skills() {
             <div className="h-full w-1 bg-gray-200 pointer-events-none" />
           </div>
           <div className="flex-shrink-0 w-10 h-10 rounded-full inline-flex items-center justify-center text-white relative z-10">
-          <img width="48" height="48" src="https://img.icons8.com/color/48/javascript--v1.png" alt="javascript--v1"/>
+          <Image width="48" height="48" src="https://img.icons8.com/color/48/javascript--v1.png" alt="javascript--v1"/>
           </div>
           <div className="flex-grow pl-4">
             <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider lg:text-2xl">
@@ -66,7 +66,7 @@ export default function Skills() {
             <div className="h-full w-1 bg-gray-200 pointer-events-none" />
           </div>
           <div className="flex-shrink-0 w-10 h-10 rounded-full inline-flex items-center justify-center text-white relative z-10">
-          <img width="24" height="24" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/external-react-a-javascript-library-for-building-user-interfaces-logo-shadow-tal-revivo.png" alt="external-react-a-javascript-library-for-building-user-interfaces-logo-shadow-tal-revivo"/>
+          <Image width="24" height="24" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/external-react-a-javascript-library-for-building-user-interfaces-logo-shadow-tal-revivo.png" alt="external-react-a-javascript-library-for-building-user-interfaces-logo-shadow-tal-revivo"/>
           </div>
           <div className="flex-grow pl-4">
             <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider lg:text-2xl">
@@ -80,7 +80,7 @@ export default function Skills() {
         
         <div className="flex relative">
           <div className="flex-shrink-0 w-10 h-10 rounded-full inline-flex items-center justify-center text-white relative z-10">
-          <img width="48" height="48" src="https://img.icons8.com/fluency/48/node-js.png" alt="node-js"/>
+          <Image width="48" height="48" src="https://img.icons8.com/fluency/48/node-js.png" alt="node-js"/>
           </div>
           <div className="flex-grow pl-4">
             <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider lg:text-2xl">
@@ -98,7 +98,7 @@ export default function Skills() {
         alt="step"
       /> */}
       <Image data-aos="fade-up"
-     data-aos-anchor-placement="center-bottom" src={skillbg} alt="programing image" height={200} width={600} className="lg:ml-[100px]"></Image>
+     data-aos-anchor-placement="center-bottom" src={skillbg} alt="programing image" height={200} width={600} className="lg:ml-[100px]"/>
     </div>
   </div>
 </section>

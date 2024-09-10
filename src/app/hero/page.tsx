@@ -48,7 +48,7 @@ export default function Hero() {
     <div className="mockup-phone ">
   <div className="camera"></div>
   <div className="display">
-    <div className="artboard artboard-demo phone-1 hover:scale-150 duration-700 "><Image src={herobg} alt="me"></Image></div>
+    <div className="artboard artboard-demo phone-1 hover:scale-150 duration-700 "><Image src={herobg} alt="me"/></div>
   </div>
 </div>
     </div>

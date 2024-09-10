@@ -23,7 +23,7 @@ export default function Project() {
     <div className="flex flex-wrap -m-4">
     <div className="pb-4 lg:w-1/4 md:w-1/2 border-4 border-blue-400 rounded-[20px]" data-aos="flip-right" data-aos-duration="2000">
         <div className="h-full flex flex-col items-center text-center">
-        <Link href="https://coffee-web-rho.vercel.app/"><Image src={coffee} alt="coffee" className="h-[190px] rounded-[20px]"></Image></Link>
+        <Link href="https://coffee-web-rho.vercel.app/"><Image src={coffee} alt="coffee" className="h-[190px] rounded-[20px]"/></Link>
           <div className="w-full">
           <h2 className="title-font font-medium text-2xl font-mono font-bold text-black mt-3">
               <span className="text-red-500">Coffee</span> website
@@ -37,7 +37,7 @@ export default function Project() {
       
       <div className="pb-4 lg:w-1/4 md:w-1/2 border-4 border-blue-400 rounded-[20px]" data-aos="flip-right" data-aos-duration="2000" >
         <div className="h-full flex flex-col items-center text-center">
-        <Link href="https://food-responsive-website.vercel.app/"><Image src={food} alt="food" className="h-[190px] rounded-[20px]"></Image></Link>
+        <Link href="https://food-responsive-website.vercel.app/"><Image src={food} alt="food" className="h-[190px] rounded-[20px]"/></Link>
           <div className="w-full">
             <h2 className="title-font font-medium text-2xl font-mono font-bold text-black mt-3">
               <span className="text-red-500">Food</span> website
@@ -52,7 +52,7 @@ export default function Project() {
       
       <div className="pb-4 lg:w-1/4 md:w-1/2 border-4 border-blue-400 rounded-[20px]" data-aos="flip-right" data-aos-duration="2000">
         <div className="h-full flex flex-col items-center text-center">
-        <Link href="/"><Image src={search} alt="search" className="h-[190px] rounded-[20px]"></Image></Link>
+        <Link href="/"><Image src={search} alt="search" className="h-[190px] rounded-[20px]"/></Link>
           <div className="w-full">
           <h2 className="title-font font-medium text-2xl font-mono font-bold text-black mt-3">
               <span className="text-red-500">Image</span> search app
@@ -65,7 +65,7 @@ export default function Project() {
       </div>
       <div className="pb-4 lg:w-1/4 md:w-1/2 border-4 border-blue-400 rounded-[20px]" data-aos="flip-right" data-aos-duration="2000">
         <div className="h-full flex flex-col items-center text-center">
-        <Link href="https://trading-website-phi.vercel.app/"><Image src={trading} alt="trading" className="h-[190px] rounded-[20px]"></Image></Link>
+        <Link href="https://trading-website-phi.vercel.app/"><Image src={trading} alt="trading" className="h-[190px] rounded-[20px]"/></Link>
           <div className="w-full">
           <h2 className="title-font font-medium text-2xl font-mono font-bold text-black mt-3">
               <span className="text-red-500">Trading</span> website
@@ -86,7 +86,7 @@ export default function Project() {
       <div className="pb-4 lg:w-1/4 md:w-1/2 border-4 border-blue-400 rounded-[20px]" data-aos="flip-right" data-aos-duration="2000">
         <div className="h-full flex flex-col items-center text-center">
          
-        <Link href="https://github.com/ahsen-adil/recipe-search-project-typescript.git"><Image src={recipe} alt="google search app" className="h-[190px] rounded-[20px]"></Image></Link>
+        <Link href="https://github.com/ahsen-adil/recipe-search-project-typescript.git"><Image src={recipe} alt="google search app" className="h-[190px] rounded-[20px]"/></Link>
           <div className="w-full">
           <h2 className="title-font font-medium text-2xl font-mono font-bold text-black mt-3">
               <span className="text-red-500">Recipe</span> search
@@ -100,7 +100,7 @@ export default function Project() {
       <div className="pb-4 lg:w-1/4 md:w-1/2 border-4 border-blue-400 rounded-[20px]" data-aos="flip-right" data-aos-duration="2000">
         <div className="h-full flex flex-col items-center text-center">
           
-        <Link href="https://github.com/ahsen-adil/google-search-project-typescript.git"><Image src={google} alt="recipe" className="h-[190px] rounded-[20px]"></Image></Link>
+        <Link href="https://github.com/ahsen-adil/google-search-project-typescript.git"><Image src={google} alt="recipe" className="h-[190px] rounded-[20px]"/></Link>
           <div className="w-full">
           <h2 className="title-font font-medium text-2xl font-mono font-bold text-black mt-3">
               <span className="text-red-500">Google</span> search app
@@ -114,7 +114,7 @@ export default function Project() {
       <div className="pb-4 lg:w-1/4 md:w-1/2 border-4 border-blue-400 rounded-[20px]" data-aos="flip-right" data-aos-duration="2000">
         <div className="h-full flex flex-col items-center text-center">
           
-        <Link href="https://github.com/ahsen-adil/table-generator-typescript.git"><Image src={table} alt="quiz app" className="h-[190px] rounded-[20px]"></Image></Link>
+        <Link href="https://github.com/ahsen-adil/table-generator-typescript.git"><Image src={table} alt="quiz app" className="h-[190px] rounded-[20px]"/></Link>
           <div className="w-full">
           <h2 className="title-font font-medium text-2xl font-mono font-bold text-black mt-3">
               <span className="text-red-500">Table</span> Generator
@@ -127,7 +127,7 @@ export default function Project() {
       </div>
       <div className="pb-4 lg:w-1/4 md:w-1/2 border-4 border-blue-400 rounded-[20px]" data-aos="flip-right" data-aos-duration="2000">
         <div className="h-full flex flex-col items-center text-center">
-        <Link href="https://github.com/ahsen-adil/weather-api-project-typescript.git"><Image src={weather} alt="weather" className="h-[190px] rounded-[20px]"></Image></Link>
+        <Link href="https://github.com/ahsen-adil/weather-api-project-typescript.git"><Image src={weather} alt="weather" className="h-[190px] rounded-[20px]"/></Link>
           <div className="w-full">
           <h2 className="title-font font-medium text-2xl font-mono font-bold text-black mt-3">
               <span className="text-red-500">Weather</span> Forecast

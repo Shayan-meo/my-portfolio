@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 
 
@@ -21,7 +22,7 @@ export default function Services() {
      data-aos-duration="3000">
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center" >
         <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
-        <img width="60" height="60" src="https://img.icons8.com/external-tanah-basah-basic-outline-tanah-basah/24/external-web-development-coding-tanah-basah-basic-outline-tanah-basah.png" alt="external-web-development-coding-tanah-basah-basic-outline-tanah-basah"/>
+        <Image width="60" height="60" src="https://img.icons8.com/external-tanah-basah-basic-outline-tanah-basah/24/external-web-development-coding-tanah-basah-basic-outline-tanah-basah.png" alt="external-web-development-coding-tanah-basah-basic-outline-tanah-basah"/>
         </div>
         <div className="flex-grow">
           <h2 className="text-gray-900 text-lg title-font mb-3 font-serif font-bold">
@@ -35,21 +36,21 @@ export default function Services() {
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
-        <img width="66" height="66" src="https://img.icons8.com/external-outline-design-circle/66/external-Web-Designing-web-design-and-development-outline-design-circle.png" alt="external-Web-Designing-web-design-and-development-outline-design-circle"/>
+        <Image width="66" height="66" src="https://img.icons8.com/external-outline-design-circle/66/external-Web-Designing-web-design-and-development-outline-design-circle.png" alt="external-Web-Designing-web-design-and-development-outline-design-circle"/>
         </div>
         <div className="flex-grow">
           <h2 className="text-gray-900 text-lg title-font mb-3 font-serif font-bold">
             Web design
           </h2>
           <p className="leading-relaxed text-base">
-          Creative web designing solutions to captivate your audience. I design visually stunning, user-friendly, and engaging websites that reflect your brand's identity. With a focus on aesthetics and functionality, I create websites that leave a lasting impression and drive business growth.
+          Creative web designing solutions to captivate your audience. I design visually stunning, user-friendly, and engaging websites that reflect your brands identity. With a focus on aesthetics and functionality, I create websites that leave a lasting impression and drive business growth.
           </p>
           
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
-        <img width="64" height="64" className="mt-2" src="https://img.icons8.com/external-outline-wichaiwi/64/external-browser-digital-marketing-outline-wichaiwi.png" alt="external-browser-digital-marketing-outline-wichaiwi"/>
+        <Image width="64" height="64" className="mt-2" src="https://img.icons8.com/external-outline-wichaiwi/64/external-browser-digital-marketing-outline-wichaiwi.png" alt="external-browser-digital-marketing-outline-wichaiwi"/>
         </div>
         <div className="flex-grow">
           <h2 className="text-gray-900 text-lg title-font mb-3 font-serif font-bold">

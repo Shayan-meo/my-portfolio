@@ -45,7 +45,7 @@ export default function RootLayout({
   </div>
 </header>
         {children}
-        <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+        <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1" async></script>
 <df-messenger
   chat-icon="https:&#x2F;&#x2F;upload.wikimedia.org&#x2F;wikipedia&#x2F;commons&#x2F;0&#x2F;04&#x2F;ChatGPT_logo.svg"
   intent="WELCOME"
