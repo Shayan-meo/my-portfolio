@@ -1,6 +1,8 @@
 import Image from "next/image";
-
-
+import { FaFigma } from "react-icons/fa6";
+import { CgWebsite } from "react-icons/cg";
+import { FaCode } from "react-icons/fa";
+import { FaLaptopCode } from "react-icons/fa";
 
 export default function Services() {
   return (
@@ -22,7 +24,7 @@ export default function Services() {
      data-aos-duration="3000">
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center" >
         <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
-        <Image width="60" height="60" src="https://img.icons8.com/external-tanah-basah-basic-outline-tanah-basah/24/external-web-development-coding-tanah-basah-basic-outline-tanah-basah.png" alt="external-web-development-coding-tanah-basah-basic-outline-tanah-basah"/>
+          <FaCode className="w-[60px] h-[60px] text-black"/>
         </div>
         <div className="flex-grow">
           <h2 className="text-gray-900 text-lg title-font mb-3 font-serif font-bold">
@@ -36,7 +38,7 @@ export default function Services() {
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
-        <Image width="66" height="66" src="https://img.icons8.com/external-outline-design-circle/66/external-Web-Designing-web-design-and-development-outline-design-circle.png" alt="external-Web-Designing-web-design-and-development-outline-design-circle"/>
+         <CgWebsite className="w-[60px] h-[60px] text-black"/>
         </div>
         <div className="flex-grow">
           <h2 className="text-gray-900 text-lg title-font mb-3 font-serif font-bold">
@@ -50,7 +52,7 @@ export default function Services() {
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
-        <Image width="64" height="64" className="mt-2" src="https://img.icons8.com/external-outline-wichaiwi/64/external-browser-digital-marketing-outline-wichaiwi.png" alt="external-browser-digital-marketing-outline-wichaiwi"/>
+         <FaLaptopCode className="w-[60px] h-[60px]  text-black"/>
         </div>
         <div className="flex-grow">
           <h2 className="text-gray-900 text-lg title-font mb-3 font-serif font-bold">

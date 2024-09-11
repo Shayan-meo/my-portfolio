@@ -6,6 +6,8 @@ import Link from "next/link"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react"
+import { InstagramLogoIcon,TwitterLogoIcon } from '@radix-ui/react-icons'
+
 
 
 export default function About() {
@@ -25,20 +27,20 @@ export default function About() {
       I specialize in front-end development where I bring designs to life using languages like HTML CSS and JavaScript. Whether it is creating responsive layouts, implementing interactive features, or optimizing performance, I thrive on the challenges of turning ideas into code.
       But I am not just limited to the front end. I also have experience working with back-end technologies like Node.js and react.js and others
       </p>
-      <div className="flex justify-center">
+      <div className="flex justify-center gap-8">
         <Link href="https://www.instagram.com/ahsen_meooo?igsh=MW5mdHcxYXF1Mml2dg==">
         <div className="inline-flex animate-bounce text-white border-0 py-2  focus:outline-none rounded text-lg" data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
-        <Image width="65" height="65" src="https://img.icons8.com/fluency/48/instagram-new.png" alt="instagram-new"/>
-        </div>
+          <InstagramLogoIcon className="h-[50px] w-[50px] text-black"/>
+          </div>
         </Link>
         <Link href="https://www.facebook.com/AhsenAdil1?mibextid=ZbWKwL">
-        <div className="ml-4 inline-flex animate-bounce text-gray-700 border-0 py-2 focus:outline-none rounded text-lg" data-aos="flip-left"
+        <div className="inline-flex animate-bounce text-gray-700 border-0 py-2 focus:outline-none rounded text-lg" data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
-        <Image width="65" height="65" src="https://img.icons8.com/color/48/facebook.png" alt="facebook"/>
-        </div>
+          <TwitterLogoIcon className="h-[50px] text-black w-[50px]"/>
+          </div>
         </Link>
       </div>
     </div>
