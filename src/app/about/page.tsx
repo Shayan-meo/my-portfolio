@@ -1,14 +1,12 @@
 "use client"
 
 import Image from "next/image"
-import meabc from "../../../meabc.jpg"
+import meabc from "../../../shayan.jpeg"
 import Link from "next/link"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react"
 import { InstagramLogoIcon,TwitterLogoIcon } from '@radix-ui/react-icons'
-
-
 
 export default function About() {
   useEffect(() => {
@@ -28,14 +26,14 @@ export default function About() {
       But I am not just limited to the front end. I also have experience working with back-end technologies like Node.js and react.js and others
       </p>
       <div className="flex justify-center gap-8">
-        <Link href="https://www.instagram.com/ahsen_meooo?igsh=MW5mdHcxYXF1Mml2dg==">
+        <Link href="https://www.instagram.com/shayanking9520/profilecard/?igsh=bXFocHVmcXJvOGh0">
         <div className="inline-flex animate-bounce text-white border-0 py-2  focus:outline-none rounded text-lg" data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
           <InstagramLogoIcon className="h-[50px] w-[50px] text-black"/>
           </div>
         </Link>
-        <Link href="https://www.facebook.com/AhsenAdil1?mibextid=ZbWKwL">
+        <Link href="https://x.com/shayan02273927?t=aoa81nZTOu_RTYx5jFkGLA&s=09">
         <div className="inline-flex animate-bounce text-gray-700 border-0 py-2 focus:outline-none rounded text-lg" data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">

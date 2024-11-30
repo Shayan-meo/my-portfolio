@@ -1,11 +1,9 @@
 "use client"
 import Image from "next/image";
-import me from "../../../me.jpg"
 import { GitHubLogoIcon, LinkedInLogoIcon } from '@radix-ui/react-icons'
 import Typewriter from 'typewriter-effect';
 import Link from "next/link";
-import pro2 from "../../../meai.png"
-import herobg from "../../../herobg.png"
+import herobg from "../../../hero.img.jpeg"
 
 export default function Hero() {
     return (
@@ -32,12 +30,12 @@ export default function Hero() {
         Imagine. Code. Create. This is my mantra as a web developer. <br /> With a passion for innovation and a keen eye for detail, <br /> I bring digital visions to life.
       </p>
       <div className="flex justify-center">
-        <Link href="https://github.com/ahsen-adil">
+        <Link href="https://github.com/Shayan-meo">
         <button className="inline-flex animate-bounce text-white bg-gray-500 border-0 transition duration-700 py-2 px-6 rounded-full focus:outline-none hover:bg-blue-600 rounded text-lg">
           <GitHubLogoIcon className="h-[30px] w-[30px]"/>
         </button>
         </Link>
-        <Link href="https://www.linkedin.com/in/ahsan-adil-48522b290/">
+        <Link href="https://www.linkedin.com/in/muhammad-shayan-99a39b2b0/">
         <button className="ml-4 inline-flex animate-bounce text-white bg-blue-600 rounded-full transition duration-700 border-0 py-2 px-6 focus:outline-none hover:bg-gray-500  rounded text-lg">
           <LinkedInLogoIcon className="h-[30px] w-[30px]"/>
         </button>

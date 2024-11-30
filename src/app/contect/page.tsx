@@ -13,7 +13,7 @@ export default function Contect() {
     event.preventDefault();
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "ca06216d-822a-423c-bfc0-51330bdcf7c8");
+    formData.append("access_key", "a4f70d9c-af34-4e13-99aa-0ddf91fd3dad");
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
@@ -142,7 +142,7 @@ export default function Contect() {
                 </div>
                 <div className="ml-6 grow">
                   <p className="mb-2 font-bold ">Technical support</p>
-                  <p className="text-sm text-neutral-500">meaahsan0@gmail.com</p>
+                  <p className="text-sm text-neutral-500">shahyanqammer540@gmail.com</p>
                 </div>
               </div>
             </div>
@@ -224,7 +224,7 @@ export default function Contect() {
                 </div>
                 <div className="ml-6 grow">
                   <p className="mb-2 font-bold ">Mobile Number</p>
-                  <p className="text-neutral-500">+923182710120</p>
+                  <p className="text-neutral-500">+923278448829</p>
                 </div>
               </div>
             </div>
@@ -234,8 +234,6 @@ export default function Contect() {
     </div>
   </div>
 </section>
-
-
       </>
     );
   }
