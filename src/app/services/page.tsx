@@ -28,7 +28,7 @@ export default function Services() {
         </div>
         <div className="flex-grow">
           <h2 className="text-gray-900 text-lg title-font mb-3 font-serif font-bold">
-            Web sevelopment
+            Web Development
           </h2>
           <p className="leading-relaxed text-base">
           Expert web development services to bring your ideas to life. From conceptualization to deployment, I craft robust, scalable, and secure web applications that meet your business needs. With proficiency in modern technologies and frameworks, I deliver high-quality solutions that drive results.
