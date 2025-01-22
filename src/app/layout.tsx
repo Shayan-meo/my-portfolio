@@ -36,7 +36,6 @@ export default function RootLayout({
       <Link href="/"><p className="mr-5 hover:text-red-500 transition duration-400 hover:underline lg:text-2xl">Home</p></Link>
       <Link href="/about"><p className="mr-5 hover:text-red-500 transition duration-400 hover:underline lg:text-2xl">About</p></Link>
       <Link href="skills"><p className="mr-5 hover:text-red-500 transition duration-400 hover:underline lg:text-2xl">Skills</p></Link>
-      <Link href="project"><p className="mr-5 hover:text-red-500 transition duration-400 hover:underline lg:text-2xl">projects</p></Link>
       <Link href="contect"><p className="mr-5 hover:text-red-500 transition duration-400 hover:underline lg:text-2xl">Contact</p></Link>
     </nav>
   </div>
